@@ -1,0 +1,182 @@
+.platform_{
+  width:100%;
+  height:auto;
+  position:absolute;
+  top:71px;
+  .platform_top {
+    .mask {
+      width: 100%;
+      height: 100%;
+      .platform_top_center {
+        padding-top: 133px;
+        .contact_us_but {
+          width: 160px;
+          height: 40px;
+          background: inherit;
+          background-color: transparent;
+          box-sizing: border-box;
+          border: 2px solid #F2F2F2;
+          border-radius: 4px;
+          box-shadow: none;
+          font-family: '微软雅黑 Bold', '微软雅黑';
+          font-weight: 700;
+          font-style: normal;
+          font-size: 16px;
+          color: #F2F2F2;
+          text-align: center;
+          line-height: 40px;
+          margin-top: 100px;
+          a {
+            color: #FFF;
+            &:hover {
+              color: #FFF;
+              text-decoration: none;
+              display: block;
+            }
+          }
+        }
+        .platform_title {
+          font-size: 4rem;
+          color: #F2F2F2;
+          font-weight: bold;
+          font-family: '微软雅黑 Bold', '微软雅黑';
+        }
+
+        .platform_subtitle {
+          font-size: 1.8rem;
+          font-family: '微软雅黑 Regular', '微软雅黑';
+          font-weight: 400;
+          color: #F2F2F2;
+        }
+      }
+    }
+    width: 100%;
+    min-width: 1000px;
+    height: 434px;
+    position: relative;
+    background: url("/images/platform/platform_banner_bg.png") center/cover no-repeat;
+    user-select: none;
+    opacity:1;
+  }
+}
+.module_container {
+  width: 100%;
+  min-width: 1231px;
+  background-color: #fff;
+  user-select: none;
+  .high_title {
+    span{
+      font-size:37px;
+      color:#EC6952;
+      &.behind {
+        font-weight: bold;
+      }
+    }
+  }
+  .demo_use {
+    height:49px;
+    width:161px;
+    line-height:49px;
+    text-align:center;
+    color:#fff;
+    background:#EC6952;
+    float:right;
+    border-radius:5px;
+    font-size: 1.6rem;
+    &:hover {
+      background:darken(#EC6952, 10%);
+    }
+  }
+  .col_div_1 {
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(51, 51, 51, 0.7);
+  }
+  .div_left_border {
+    border-left: 1px solid gainsboro;
+  }
+  .canDo {
+    &:hover {
+      border-radius: 4px;
+      border: 1px solid rgb(228, 228, 228);
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    }
+    left: 0px;
+    top: 0px;
+    height: 380px;
+    background: inherit;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 4px;
+    color: #999999;
+    margin-top: 20px;
+    padding: 30px;
+  }
+  .function_div {
+    left: 0px;
+    top: 0px;
+   /* width: 360px;*/
+    height:340px;
+    padding:0;
+    background: inherit;
+    background-color: #FFF;
+    box-sizing: border-box;
+    color: #999999;
+    margin-top: 20px;
+    .role_img {
+      width: 291px;
+      height: 201px;
+      padding-top: 151px;
+      .role_bg {
+        padding: 10px 15px;
+        display: block;
+        font-size: 2.1rem;
+        font-weight: bold;
+        color: #fff;
+        height: 50px;
+        background:linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%,rgba(0,0,0,.5) 100%,rgba(0,0,0,.5) 100%);
+      }
+    }
+    .role_content {
+      width:100%;
+      height:60px;
+      margin-top:25px;
+      ul {
+        padding-left: 20px;
+        li {
+          height: 30px;
+        }
+      }
+    }
+  }
+  .plat_charact_title {
+    font-weight: 700;
+    font-size: 34px;
+    color: rgba(222, 77, 81, 0.8);
+  }
+  .col_title_div {
+    height: 50px;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .col_title_p1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #E45050;
+  }
+
+  .col_title_p2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+  }
+  .plat_charact_dt {
+    font-size: 14px;
+    color: #868686;
+    text-align: center;
+  }
+}

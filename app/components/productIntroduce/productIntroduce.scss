@@ -1,0 +1,205 @@
+.productIntroduce{
+	.home_top{
+		position: absolute;
+	    top: 0;
+	    width: 100%;
+	    height: 675px;
+	    background: url(../../images/productIntroduce/u256.jpg) no-repeat;
+	    background-size: cover;
+	    .text {
+	      width: 781px;
+	      height: 130px;
+	      margin: 165px auto;
+	      color: #fff !important;
+	      text-align: center;
+	      -webkit-animation: Down 0.8s linear;
+	              animation: Down 0.8s linear;
+	      z-index: 999;
+	      .text-top {
+	        font-size: 60px;
+	      }
+	      .text-bottom {
+	        font-size: 28px;
+	        margin-top: 20px;
+	      }
+	    }
+	}
+    @-webkit-keyframes Down {
+      from {
+        opacity: 0;
+        margin-top: 65px;
+      }
+      to {
+        opacity: 1;
+        margin-top: 165px;
+      }
+    }
+    @keyframes Down {
+      from {
+        opacity: 0;
+        margin-top: 65px;
+      }
+      to {
+        opacity: 1;
+        margin-top: 165px;
+      }
+    }
+    .home_body{
+    	position:absolute;
+		top:675px;
+		width:100%;
+		height:auto;
+    .contents {
+		    width: 100%;
+		    height: 290px;
+		    padding-top: 65px;
+		    background: #f7f7f7;
+		}
+    .title {
+      width: 100%;
+      font-size: 30px;
+      color: #868686;
+      height: 30px;
+    }
+    .list {
+      width: 100%;
+      font-size: 16px;
+      color: #999999;
+      font-weight: 400;
+      height: 17px;
+      margin-top: 20px;
+    }
+    .containers {
+      width: 1000px;
+      margin: 40px auto;
+      height:auto;
+      .text {
+        width: 139px;
+        height: 139px;
+        font-size: 16px;
+        color: #666666;
+        cursor: pointer;
+        outline: none;
+        padding-top: 20px;
+        text-align: center;
+        border-radius: 4px;
+        float:left;
+        img {
+          width: 60px;
+          height: 60px;
+          opacity: 0.5;
+        }
+        .text-title {
+          margin-top: 20px;
+        }
+        &:hover {
+          padding-top: 17px !important;
+          background-color: rgba(0, 0, 0, 0.02) !important;
+          border: 3px solid rgba(204, 204, 204, 1) !important;
+        }
+      }
+    }
+    .home_body_last {
+	    width: 100%;
+	    background: url(../../images/productIntroduce/u726.jpg) no-repeat;
+	    background-size: cover;
+	    .last {
+	      width: 1000px;
+	      height: 700px;
+	      margin: 0 auto;
+	      .last-top {
+	        width: 100%;
+	        height: 120px;
+	        line-height: 120px;
+	        color: #FFFFFF;
+	        .top-left {
+	          font-weight: 700;
+	          font-size: 30px;
+	        }
+	        .top-right {
+	          font-weight: 400;
+	          font-size: 18px;
+	          margin-left: 20px;
+	        }
+	      }
+	      .last-center {
+	        width: 100%;
+	        color: #fff;
+	        height: 320px;
+	        .text {
+	          width: 190px;
+	          height: 320px;
+	          color: #fff;
+	          margin-right: 10px;
+	          float: left;
+	          cursor: pointer;
+	          background: rgba(225, 225, 225, 0.4);
+	          &:hover{
+	          	background: rgba(225, 225, 225, 0.7);
+	          }
+	          .text-title {
+	            width: 100%;
+	            margin-top: 30px;
+	            font-weight: 700;
+	            font-size: 20px;
+	          }
+	          .text-content {
+	            width: 160px;
+	            margin: 100px auto;
+	            font-weight: 400;
+	            font-size: 16px;
+	          }
+	        }
+	      }
+	      .last-bottom {
+	        width: 510px;
+	        margin: 0 auto;
+	        height: 260px;
+	        .bottom-title {
+	          width: 100%;
+	          height: 150px;
+	          line-height: 170px;
+	          font-weight: 700;
+	          font-size: 30px;
+	          color: #fff;
+	        }
+	        .bottom-content {
+	          input {
+	            width: 300px;
+	            height: 40px;
+	            font-size: 16px;
+	            color: #999999;
+	            border-radius: 4px;
+	            padding-left: 16px;
+	            border: 0;
+	            float: left;
+	            margin-left: 20px;
+	          }
+	          .btns {
+	            width: 140px;
+	            height: 40px;
+	            margin-left: 10px;
+	            float: left;
+	            cursor: pointer;
+	            line-height: 40px;
+	            font-weight: 700;
+	            font-size: 16px;
+	            color: #FFFFFF;
+	            outline: none;
+	            border-radius: 4px;
+	            background: rgba(231, 120, 123, 1);
+	            border: 1px solid rgba(222, 75, 79, 1);
+	          }
+	          &:hover {
+	            background: rgba(226, 101, 104, 1);
+	          }
+	          &:active {
+	            background: rgba(226, 101, 104, 1);
+	            box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.15) inset;
+	          }
+	        }
+	      }
+	    }
+  	}
+	}
+}

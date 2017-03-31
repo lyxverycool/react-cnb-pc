@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+}
+a, span, li, div {
+  font-family: "微软雅黑 Regular", 微软雅黑;
+}
+a{
+	text-decoration: none;
+  cursor:pointer;
+}
+a:hover{
+  text-decoration: none;
+}
+ul,ol,li {
+    list-style: none
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+select,input {
+    vertical-align: middle
+}
+select,input,textarea {
+    margin: 0
+}
+input[type="text"],input[type="password"],textarea {
+    outline-style: none;
+    -webkit-appearance: none
+}
+.text-left{
+  text-align:left;
+}
+.text-center{
+  text-align:center;
+}
+.text-right{
+  text-align:right;
+}
