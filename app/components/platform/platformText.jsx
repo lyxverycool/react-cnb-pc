@@ -21,4 +21,48 @@ const roles=[
 		bg:'url(../../images/platform/platform_pic03.png)'
 	}
 ]
-export {roles};
+const  datas=[ {
+                title: "工作台",
+                content: "有序工作不延误，有章可循不遗漏"
+            }, {
+                title: "企业管理",
+                content: "更快导入部门信息，轻松应对组织变化"
+            }, {
+                title: "员工管理",
+                content: "人事信息简单录入，各类证件按需调取"
+            }, {
+                title: "薪资福利",
+                content: "高效率薪资核算、自定义社保缴纳"
+            }, {
+                title: "员工家园",
+                content: "查询互动更便捷，薪福信息更透明"
+            }, {
+                title: "权限管理",
+                content: "多角色账号自动切换，自定义账号功能"
+            } ]
+const dataLists=[ {
+                title: "安全",
+                isLeftBorder: false,
+                content_1:"银行级安全防护",
+                content_2:"数据多重备份",
+                content_3:"..." 
+            }, {
+                title: "准确",
+                isLeftBorder: true,
+                content_1:"确保薪资核算结果无误",
+                content_2:"覆盖全国主要城市的社保基数",
+                content_3:"平台实时维护"                
+            }, {
+                title: "定制化",
+                isLeftBorder: true,
+                content_1:"按需组合功能模块",
+                content_2:"各种报表自定义生成",
+                content_3:"..."                
+            }, {
+                title: "高性价比",
+                isLeftBorder: true,
+                content_1:"成本低廉",
+                content_2:"功能齐全",
+                content_3:"满足个性化需求"
+            } ]       
+export {roles,datas,dataLists};

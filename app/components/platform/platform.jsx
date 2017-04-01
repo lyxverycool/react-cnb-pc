@@ -1,12 +1,14 @@
 import React,{Component,PropTypes} from "react";
 import HeaderOther from '../common/header_2';
+import Footer from '../common/footer';
 import _borderBotttomStyle from '../../config/boderBottomStyle';
-import {roles} from './platformText';
+import {roles,datas,dataLists} from './platformText';
 require('./platform.scss')
 
 export default class Platform extends Component{
 	constructor(props){
 		super(props)
+		console.log(dataLists[0].contents)
 	}
 	
 	render() {
@@ -64,6 +66,60 @@ export default class Platform extends Component{
 					    </div>
 					  </div>
 					</section>
+					<section className="module_container">
+					  <div className="container" style={{paddingTop: '10px', borderTop:'2px dashed #999',width:'1000px'}}>
+					    <div className="row">
+					      <div className="col-xs-12 col_div_1" style={{height: '160px'}}>
+					        <span style={{lineHeight: '160px'}}>在这里，您可以做到</span>
+					      </div>
+					      <div className="col-xs-12" style={{padding: 0,margin: '0 -15px',width: '1030px'}}>
+					       {datas.map(
+								(data,i)=>{
+									return (
+										  <div className="col-xs-4" key={i}>
+									          <div className="canDo">
+									            <div>
+									              <div className="col_title_div">
+									                <p className="col_title_p1"><span>{data.title}</span></p>
+									                <p className="col_title_p2"><span>{data.content}</span></p>
+									              </div>
+									            </div>
+									            <div className="pic_"></div>
+									          </div>
+									     </div>
+									)
+								}
+					       	)}
+					      </div>
+					    </div>
+					  </div>
+					</section>
+					<section className="module_container">
+					  <div className="container" style={{paddingBottom: '80px'}}>
+					    <div className="col_div_1 text-center ">
+					      <span>我们能为您达成</span>
+					    </div>
+					    <div style={{marginTop: '50px'}}>
+						    {dataLists.map(
+								(dataList,i)=>{
+									return (
+										<div key={i} className="col-xs-3 list" style={{textAlign: 'center',height:'151px'}}>			
+								        <div className="plat_charact_title">
+								          <p><span>{dataList.title}</span></p>
+								        </div>
+								        <div className="plat_charact_dt">									
+											<p><span>{dataList.content_1}</span></p>
+											<p><span>{dataList.content_2}</span></p>
+											<p><span>{dataList.content_3}</span></p>									        
+								        </div>
+								      </div>
+									)
+								}
+						    )}
+					    </div>
+					  </div>
+					</section>
+					<Footer />
 				</section>
 			</div>
 		);
