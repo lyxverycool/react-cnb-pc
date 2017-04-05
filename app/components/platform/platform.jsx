@@ -8,7 +8,6 @@ require('./platform.scss')
 export default class Platform extends Component{
 	constructor(props){
 		super(props)
-		console.log(dataLists[0].contents)
 	}
 	
 	render() {

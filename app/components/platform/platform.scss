@@ -54,7 +54,7 @@
     min-width: 1000px;
     height: 434px;
     position: relative;
-    background: url("/images/platform/platform_banner_bg.png") center/cover no-repeat;
+    background: url("../../images/platform/platform_banner_bg.png") center/cover no-repeat;
     user-select: none;
     opacity:1;
   }
@@ -120,7 +120,7 @@
       height: 141px;
       margin-top: 80px;
       background-size:753px;
-      background-image:url('/images/platform/icons.jpg')
+      background-image:url('../../images/platform/icons.jpg')
     }
   }
   .function_div {

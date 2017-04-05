@@ -2,7 +2,7 @@
 const lineTops = [
             {
               title: '薪酬管理',
-              img: '../images/productIntroduce/u1154.svg',
+              img: "../../images/productIntroduce/u1154.svg",
             },
             {
               title: '社保福利',
