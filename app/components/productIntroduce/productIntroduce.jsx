@@ -34,7 +34,7 @@ export default class ProductIntroduce extends Component{
             <div className="containers">
               {lineTops.map(
                    (lineTop,i)=>{
-                      return <div className="text text-1" key={i}><img src={lineTop.img}/>
+                      return <div className="text text-1" key={i}><img src={lineTop.img} />
                         <div className="text-title text-center">
                           {lineTop.title}
                         </div>

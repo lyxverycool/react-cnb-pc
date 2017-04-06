@@ -2,54 +2,54 @@
 const lineTops = [
             {
               title: '薪酬管理',
-              img: "../../images/productIntroduce/u1154.svg",
+              img: require("../../images/productIntroduce/u1154.svg"),
             },
             {
               title: '社保福利',
-              img: '../images/productIntroduce/u1159.svg',
+              img: require("../../images/productIntroduce/u1159.svg"),
             },
             {
               title: '奖金智能核算',
-              img: '../images/productIntroduce/u1164.svg',
+              img: require("../../images/productIntroduce/u1164.svg"),
             },
             {
               title: '工时考勤',
-              img: '../images/productIntroduce/u1170.png',
+              img: require("../../images/productIntroduce/u1170.png"),
             },
             {
               title: '统计报表',
-              img: '../images/productIntroduce/u1174.svg',
+              img: require("../../images/productIntroduce/u1174.svg"),
             },
             {
               title: '公司与员工管理',
-              img: '../images/productIntroduce/u1224.png',
+              img: require("../../images/productIntroduce/u1224.png"),
             },
             {
               title: '权限管理',
-              img: '../images/productIntroduce/u1185.svg',
+              img: require("../../images/productIntroduce/u1185.svg"),
             }
           ];
           //线下服务文案
 const lineBottoms = [
             {
               title: '社保代缴',
-              img: '../images/productIntroduce/u1178.png',
+              img: require("../../images/productIntroduce/u1178.png"),
             },
             {
               title: '工资代发',
-              img: '../images/productIntroduce/u1181.svg',
+              img:require("../../images/productIntroduce/u1181.svg"),
             },
             {
               title: '资金安全',
-              img: '../images/productIntroduce/u1186.png',
+              img: require("../../images/productIntroduce/u1186.png"),
             },
             {
               title: '福利商城',
-              img: '../images/productIntroduce/u1262.png',
+              img: require("../../images/productIntroduce/u1262.png"),
             },
             {
               title: '增值服务',
-              img: '../images/productIntroduce/u1192.png',
+              img: require("../../images/productIntroduce/u1192.png"),
             }
           ];
 const texts = [
